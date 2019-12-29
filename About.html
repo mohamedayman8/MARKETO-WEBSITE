@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+         <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>About Us</title>
+          <link rel = "icon" href ="images/title%20logo.png"  type = "image/x-icon">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <style>
+        /* About Us Section
+--------------------------------*/
+
+#about {
+  padding: 80px 0;
+}
+
+#about .about-content {
+  padding-top: 40px;
+}
+
+#about .about-content h2 {
+  color: #413e66;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#about .about-content h3 {
+  color: #696592;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: italic;
+}
+
+#about .about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#about .about-content ul li {
+  padding-bottom: 10px;
+}
+
+#about .about-content ul li i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1bb1dc;
+}
+
+#about .about-img {
+  position: relative;
+  margin: 30px 30px 30px 30px;
+}
+
+#about .about-img img {
+  width: 100%;
+  border: 8px solid #fff;
+  transition: .5s;
+}
+
+#about .about-img img:hover {
+  width: 100%;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+#about .about-img::before {
+  position: absolute;
+  left: -31px;
+  top: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
+#about .about-img::after {
+  position: absolute;
+  right: -31px;
+  bottom: -30px;
+  width: 90%;
+  height: 92%;
+  z-index: -1;
+  content: '';
+  background-color: #ebf1fa;
+  transition: .5s;
+}
+
+            
+ 
+
+
+
+
+        </style>
+    </head>    
+    <body>
+          <!--the navbar of website-->
+   <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">MaRketo</a>
+    </div>
+    <ul class="nav navbar-nav">    
+      <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="sevices.html">Services</a></li>
+      <li><a  href="About.html">About Us</a></li>
+        <li><a href="signup.html">SignUp</a></li>
+            <li><a href="signin.html">Signin</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+
+
+
+    </ul>
+    <form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+      </div>
+      <button type="submit" class="btn btn-default">Search</button>
+    </form>
+  </div>
+</nav>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+<!--the end of navbar-->
+        
+        
+        
+        
+        <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img">
+              <img src="images/about-img.jpg" alt="" >
+            </div>
+          </div>
+
+          <div class="col-lg-7 col-md-6">
+            <div class="about-content">
+              <h2>About Us</h2>
+              <h3>We are some failure students at fcai-cairo university</h3>
+                <p>the best team <h1 style="color: aquamarine">MOHAMED AYMAN-KARIM MOHAMED-ABDULAZIZ MOHAMED</h1></p>
+              <p>but this woman we have no idea about her but I have admiration with her and may fall in love with her and thank you </p>
+              <h2>To CONTACT US</h2>
+              <ul>
+                <li><i class="ion-android-checkmark-circle"></i>MOHAMED AYMAN-->sw.eng.ayman@gmail.com</li>
+                <li><i class="ion-android-checkmark-circle"></i> KARIM MOHAMED-->karimmohamed@gmail.com</li>
+                <li><i class="ion-android-checkmark-circle"></i> ABDULAZIZ MOHAMED-->elzozwahedbas@gmail.com</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- #about -->
+       
+        
+        <script src="js/jquery-3.4.1.min.js"></script>>
+        <script src="js/bootstrap.min.js"></script>>
+    </body>
+    
+</html>
